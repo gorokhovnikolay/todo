@@ -1,0 +1,61 @@
+@import './src/fonts.css';
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #ff000047, #339ef947);
+    min-height: 100vh;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1,h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+.clock {
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+textarea {
+    font-family: 'Roboto', sans-serif;
+    width: 95%;
+    background-image: linear-gradient(to right, #ffffffab, #ffffffab), url(./src/img/schoolist.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 13px;
+    padding-left: 45px;
+    font-size: 30px;
+    line-height: 58px;
+}
+textarea:first-line {
+    font-weight: bold;
+    text-align: center!Important;
+}
+
+form.form-contact {
+    padding: 13px;
+    background: #e9e9e9;
+    max-width: 400px;
+    margin: 0 auto;
+}
+input#firstName, input#phone {
+    width: 100%;
+    height: 30px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 11px;
+    outline: none;
+}
